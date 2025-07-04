@@ -1,37 +1,53 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: yellow; /* Adding yellow background */
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-<table>
-    <caption>Student Details</caption>
-    <thead>
-      <tr>
-        <th>NAME</th>
-        <th>AGE</th>
-        <th>BRANCH</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Shaw</td>
-        <td>20</td>
-        <td>CSE</td>
-      </tr>
-      <tr>
-        <td>Adil</td>
-        <td>21</td>
-        <td>ECE</td>
-      </tr>
-    </tbody>
-  </table>
+    <script type="text/javascript" src="./script.js"></script> <!-- Properly closed script tag -->
+    
+    <table>
+        <caption>Student Details</caption> <!-- Added caption -->
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shaw</td>
+                <td>20</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Adil</td>
+                <td>21</td>
+                <td>ECE</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 
